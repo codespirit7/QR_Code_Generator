@@ -37,9 +37,7 @@ const generateQRCode = (url, size) => {
         text: url,
         width: size,
         height: size,
-        colorDark : "black",
-        colorLight : "white",
-        correctLevel : QRCode.CorrectLevel.H
+        
     });
 };
 
